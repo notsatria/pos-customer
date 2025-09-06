@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import MenuCard from "@/shared/MenuCard";
 import type { MenuItem } from "@/state/CartContext";
 
-const data: MenuItem[] = [
+const data: Array<MenuItem> = [
   {
     id: "f1",
     name: "Nasi Goreng",
